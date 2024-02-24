@@ -11,7 +11,7 @@
 		<Copyright>XiaoYou</Copyright>
 		<PackageTags>sparksiiot</PackageTags>
 		<PackageIcon>sparksiiot.png</PackageIcon>
-		<RepositoryUrl>http://git.xiaoyou.run/JSPTPD/JSPTPD.XuZhou.Sparksiiot</RepositoryUrl>
+		<RepositoryUrl>https://github.com/q397133334/JSPTPD.XuZhou.Sparksiiot</RepositoryUrl>
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Flurl" Version="2.8.2" />
