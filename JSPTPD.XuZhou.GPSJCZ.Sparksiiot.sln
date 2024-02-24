@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34407.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSPTPD.XuZhou.Sparksiiot.Client", "JSPTPD.XuZhou.Sparksiiot.Client\JSPTPD.XuZhou.Sparksiiot.Client.csproj", "{1FBC0509-878F-4DDB-B241-953254C13FFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSPTPD.XuZhou.Sparksiiot.Client", "src\JSPTPD.XuZhou.Sparksiiot.Client\JSPTPD.XuZhou.Sparksiiot.Client.csproj", "{1FBC0509-878F-4DDB-B241-953254C13FFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSPTPD.XuZhou.Sparksiiot.Http", "JSPTPD.XuZhou.Sparksiiot.Http\JSPTPD.XuZhou.Sparksiiot.Http.csproj", "{5536EADC-CB45-4647-9EDD-F1340A9E47A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSPTPD.XuZhou.Sparksiiot.Http", "src\JSPTPD.XuZhou.Sparksiiot.Http\JSPTPD.XuZhou.Sparksiiot.Http.csproj", "{5536EADC-CB45-4647-9EDD-F1340A9E47A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
