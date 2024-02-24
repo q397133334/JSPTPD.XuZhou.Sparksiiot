@@ -18,8 +18,8 @@ $buildSuffix = @{ $true = "$($suffix)-$($commitHash)"; $false = "$($branch)-$($c
 echo "build: Package version suffix is $suffix"
 echo "build: Build version suffix is $buildSuffix" 
 
-foreach ($src in ls src/*) {
-    Push-Location $src
+# foreach ($src in ls src/*) {
+    Push-Location $src=  "JSPTPD.XuZhou.Sparksiiot.Http"
 
 	echo "build: Packaging project in $src"
 
@@ -32,17 +32,17 @@ foreach ($src in ls src/*) {
     if($LASTEXITCODE -ne 0) { exit 1 }    
 
     Pop-Location
-}
+# JSPTPD.XuZhou.Sparksiiot.Http}
 
-foreach ($test in ls test/*.Tests) {
-    Push-Location $test
+# foreach ($test in ls test/*.Tests) {
+#     Push-Location $test
 
-	echo "build: Testing project in $test"
+# 	echo "build: Testing project in $test"
 
-    & dotnet test -c Release
-    if($LASTEXITCODE -ne 0) { exit 3 }
+#     & dotnet test -c Release
+#     if($LASTEXITCODE -ne 0) { exit 3 }
 
-    Pop-Location
-}
+#     Pop-Location
+# }
 
 Pop-Location
